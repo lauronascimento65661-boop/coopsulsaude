@@ -1,0 +1,36 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4fefe;
+text-align:center;
+}
+
+header{
+background:#008c8c;
+color:white;
+padding:20px;
+}
+
+section{
+padding:40px;
+}
+
+.botao{
+background:#00b3b3;
+color:white;
+padding:15px 25px;
+text-decoration:none;
+border-radius:10px;
+font-size:18px;
+display:inline-block;
+margin-top:20px;
+}
+
+footer{
+background:#003333;
+color:white;
+padding:15px;
+position:fixed;
+bottom:0;
+width:100%;
+}
