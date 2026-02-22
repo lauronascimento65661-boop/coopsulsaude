@@ -3,41 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>CoopSul Saúde</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
 
 body{
 margin:0;
-font-family:Arial;
+font-family:Poppins;
 background:#f4f8f7;
 }
 
 header{
-background:#0f5132;
+
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1584515933487-779824d29309");
+
+background-size:cover;
+background-position:center;
+
 color:white;
+padding:100px 20px;
 text-align:center;
-padding:30px;
+
 }
 
 header img{
+
 width:120px;
-margin-bottom:10px;
+background:white;
+border-radius:10px;
+padding:10px;
+
+}
+
+header h1{
+
+font-size:40px;
+margin:10px 0;
+
+}
+
+header p{
+
+font-size:20px;
+color:#00ff88;
+font-weight:600;
+
+}
+
+.botao{
+
+background:#00c853;
+color:white;
+padding:15px 30px;
+border-radius:30px;
+text-decoration:none;
+display:inline-block;
+margin-top:20px;
+font-weight:600;
+
 }
 
 .container{
-padding:20px;
+
+padding:40px 20px;
+
 }
 
 .card{
+
 background:white;
-padding:20px;
-margin:15px;
+padding:25px;
+margin-bottom:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+.card h2{
+
+color:#00c853;
+
+}
+
+.servicos{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+
+}
+
+.servico{
+
+background:#f1fdf6;
+padding:15px;
 border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+font-weight:500;
+
+}
+
+footer{
+
+background:#00c853;
+color:white;
+padding:20px;
+text-align:center;
+
 }
 
 .whatsapp{
+
 position:fixed;
 bottom:20px;
 right:20px;
@@ -47,14 +126,8 @@ padding:15px 20px;
 border-radius:50px;
 text-decoration:none;
 font-weight:bold;
-}
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
 
-footer{
-background:#0f5132;
-color:white;
-text-align:center;
-padding:15px;
-margin-top:30px;
 }
 
 </style>
@@ -69,55 +142,54 @@ margin-top:30px;
 
 <h1>CoopSul Saúde</h1>
 
-<p>Assistência Domiciliar Multiprofissional</p>
+<p>Cuidar é nossa essência. Sua saúde é nossa missão.</p>
+
+<a class="botao"
+href="https://wa.me/5524992432760">
+
+Agendar Atendimento
+
+</a>
 
 </header>
 
-
 <div class="container">
 
-
 <div class="card">
 
-<h2>Quem Somos</h2>
+<h2>Sobre a CoopSul</h2>
 
 <p>
 
-A CoopSul Saúde oferece atendimento domiciliar profissional em Paraíba do Sul – RJ.
+A CoopSul Saúde é uma cooperativa especializada em assistência domiciliar multiprofissional em Paraíba do Sul - RJ.
 
-</p>
-
-<p>
-
-Responsável: Lauro Henrique Nascimento da Silva
+Atendimento humanizado, seguro e profissional.
 
 </p>
 
 </div>
 
-
 <div class="card">
 
-<h2>Serviços</h2>
+<h2>Nossos Serviços</h2>
 
-<p>
+<div class="servicos">
 
-• Enfermagem<br>
+<div class="servico">👩‍⚕️ Enfermagem</div>
 
-• Técnico em Enfermagem<br>
+<div class="servico">🧑‍⚕️ Técnico em Enfermagem</div>
 
-• Fisioterapia<br>
+<div class="servico">🏡 Cuidador de Idosos</div>
 
-• Fonoaudiologia<br>
+<div class="servico">🦴 Fisioterapia</div>
 
-• Nutrição<br>
+<div class="servico">🥗 Nutrição</div>
 
-• Cuidador de Idosos
-
-</p>
+<div class="servico">🗣️ Fonoaudiologia</div>
 
 </div>
 
+</div>
 
 <div class="card">
 
@@ -127,13 +199,22 @@ Responsável: Lauro Henrique Nascimento da Silva
 
 WhatsApp: (24) 99243-2760
 
+<br><br>
+
+Paraíba do Sul - RJ
+
 </p>
 
 </div>
 
-
 </div>
 
+<footer>
+
+© 2026 CoopSul Saúde  
+Todos os direitos reservados
+
+</footer>
 
 <a class="whatsapp"
 href="https://wa.me/5524992432760">
@@ -141,14 +222,6 @@ href="https://wa.me/5524992432760">
 WhatsApp
 
 </a>
-
-
-<footer>
-
-© 2026 CoopSul Saúde
-
-</footer>
-
 
 </body>
 </html>
