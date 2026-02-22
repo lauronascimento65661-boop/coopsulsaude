@@ -2,58 +2,195 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>CoopSul Saúde</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CoopSul Saúde</title>
+
 <style>
-body {font-family: Arial, sans-serif; margin:0; background:#f4f8fb;}
-header {background:#0b6fa4; color:white; padding:20px; text-align:center;}
-section {padding:20px;}
-.card {background:white; padding:20px; margin:15px 0; border-radius:10px;}
-button {
-background:#25d366; color:white; border:none;
-padding:15px; font-size:16px; border-radius:8px; cursor:pointer;
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f8f6;
 }
-footer {background:#0b6fa4; color:white; text-align:center; padding:10px;}
+
+header{
+background:linear-gradient(135deg,#0bbf6a,#0a8f5a);
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+header img{
+width:120px;
+margin-bottom:10px;
+}
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+header p{
+margin-top:5px;
+font-size:18px;
+}
+
+.whatsapp-top{
+
+display:inline-block;
+margin-top:15px;
+background:#25D366;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+.container{
+
+padding:20px;
+
+}
+
+.card{
+
+background:white;
+padding:20px;
+margin:15px 0;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+.card h2{
+
+color:#0bbf6a;
+
+}
+
+.servico{
+
+padding:10px;
+border-bottom:1px solid #eee;
+
+}
+
+.servico:last-child{
+
+border:none;
+
+}
+
+footer{
+
+background:#0a8f5a;
+color:white;
+text-align:center;
+padding:15px;
+
+}
+
+.whatsapp-fixo{
+
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+
+}
+
 </style>
+
 </head>
-<a href="https://wa.me/5524992432760" class="whatsapp-float" target="_blank">
-💬
-</a>
+
+<body>
+
 <header>
+
+<img src="logo.png">
+
 <h1>CoopSul Saúde</h1>
+
 <p>Assistência Domiciliar Multiprofissional</p>
+
+<a class="whatsapp-top"
+href="https://wa.me/5524992432760">
+
+Agendar pelo WhatsApp
+
+</a>
+
 </header>
 
-<section>
+<div class="container">
+
 <div class="card">
+
 <h2>Quem Somos</h2>
-<p>A CoopSul Saúde oferece atendimento domiciliar profissional em Paraíba do Sul – RJ.</p>
-<p><strong>Responsável:</strong> Lauro Henrique Nascimento da Silva</p>
+
+<p>
+
+A CoopSul Saúde oferece atendimento domiciliar profissional em Paraíba do Sul – RJ.
+
+<br><br>
+
+Responsável: Lauro Henrique Nascimento da Silva
+
+</p>
+
 </div>
 
 <div class="card">
+
 <h2>Serviços</h2>
-<ul>
-<li>Cuidador de idosos</li>
-<li>Enfermagem</li>
-<li>Fisioterapia</li>
-<li>Nutrição</li>
-<li>Fonoaudiologia</li>
-</ul>
+
+<div class="servico">👵 Cuidador de Idosos</div>
+
+<div class="servico">💉 Enfermagem</div>
+
+<div class="servico">🦴 Fisioterapia</div>
+
+<div class="servico">🥗 Nutrição</div>
+
+<div class="servico">🗣️ Fonoaudiologia</div>
+
 </div>
 
 <div class="card">
+
 <h2>Contato</h2>
-<p>WhatsApp: (24) 99243-2760</p>
-<a href="https://wa.me/5524992432760">
-<button>Falar no WhatsApp</button>
-</a>
+
+<p>
+
+WhatsApp: (24) 99243-2760
+
+</p>
+
 </div>
-</section>
+
+</div>
 
 <footer>
-<p>© 2026 CoopSul Saúde</p>
+
+© 2026 CoopSul Saúde
+
 </footer>
 
+<a class="whatsapp-fixo"
+href="https://wa.me/5524992432760">
+
+WhatsApp
+
+</a>
+
 </body>
+
 </html>
